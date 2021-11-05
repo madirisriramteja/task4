@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: #f2f2f2;
+    box-sizing: border-box;
+    
+}
+.page{
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.3), rgba(0,0,0,0.3)),  url("istockphoto-1000887536-612x612.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
+nav{
+    background-color: black;
+    opacity: 0.6;
+    padding: 10px 40px 10px 70px;
+    border: 1px solid ;
+    border-left: none;
+    border-right: none;
+}
+nav ul{
+    display:     flex;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+
+}
+nav ul li.logo{
+    flex: 1;
+    font-size: 30px;
+    font-weight: 700;
+
+}
+nav ul div.items{
+    padding: 0 25px;
+    display:  inline-flex;
+
+}
+nav ul div.items a{
+    text-decoration: none;
+    font-size: 18px;
+    padding: 0 12px;
+
+}
+nav ul .search-icon{
+    height: 40px;
+    width: 240px;
+    display: flex;
+    
+    border-radius: 5px;
+}
+nav ul .search-icon input{
+    height: 100%;
+    width: 200px;
+    border: none;
+    outline: none;
+    padding: 0 10px;
+    color: #000;
+    font-size: 16px;
+    border-radius: 5px 5px;
+} 
+.apply-now{
+    background-color: black;
+  
+    padding: 26px 18px 22px 19px;
+    margin: 109px 1150px 19px 131px;
+    border-radius: 15px;
+    opacity: 0.6;
+}
+.r1{
+    border-radius: 10px;
+    height: 30px;
+    padding: 3px 2px;
+}
+.r2{
+    font-size: 22px;
+
+}
+.r3{
+    border-radius: 10px;
+    padding: 0px 4px 9px 0px;
+    margin: 12px    ;
+    background-color: green;
+}
+.r4
+{
+    padding: 11px;
+    font-size: 40px;
+}
+.r5{
+    width: 100%;
+    background-color: rgba(13 3 3 / 75%);
+    height: 150px;
+}
+.r6{
+    padding: 18px 20px 0px 23px ;
+    margin: -3px 0px 9px 575px;
+    font-size: 12px;
+}
+.r7{
+    padding: 14px 50px 0px 756px;
+    margin: -70px 14px -1px 31px;
+    font-size: 12px;
+}
+.r8{
+    margin: -239px 13px 23px 809px;
+    float: left;
+}
